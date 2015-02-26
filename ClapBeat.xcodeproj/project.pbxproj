@@ -14,6 +14,9 @@
 		E2F4EAA71A9EF65800422E55 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EAA61A9EF65800422E55 /* Images.xcassets */; };
 		E2F4EAAA1A9EF65800422E55 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EAA81A9EF65800422E55 /* LaunchScreen.xib */; };
 		E2F4EAB61A9EF65800422E55 /* ClapBeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F4EAB51A9EF65800422E55 /* ClapBeatTests.m */; };
+		E2F4EAC21A9EF67300422E55 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EABF1A9EF67300422E55 /* icon.png */; };
+		E2F4EAC31A9EF67300422E55 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EAC01A9EF67300422E55 /* clap.wav */; };
+		E2F4EAC41A9EF67300422E55 /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EAC11A9EF67300422E55 /* clap-button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		E2F4EAAF1A9EF65800422E55 /* ClapBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F4EAB41A9EF65800422E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F4EAB51A9EF65800422E55 /* ClapBeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapBeatTests.m; sourceTree = "<group>"; };
+		E2F4EABF1A9EF67300422E55 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		E2F4EAC01A9EF67300422E55 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		E2F4EAC11A9EF67300422E55 /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 		E2F4EA8D1A9EF65800422E55 = {
 			isa = PBXGroup;
 			children = (
+				E2F4EABF1A9EF67300422E55 /* icon.png */,
+				E2F4EAC01A9EF67300422E55 /* clap.wav */,
+				E2F4EAC11A9EF67300422E55 /* clap-button.png */,
 				E2F4EA981A9EF65800422E55 /* ClapBeat */,
 				E2F4EAB21A9EF65800422E55 /* ClapBeatTests */,
 				E2F4EA971A9EF65800422E55 /* Products */,
@@ -199,6 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F4EAC31A9EF67300422E55 /* clap.wav in Resources */,
+				E2F4EAC41A9EF67300422E55 /* clap-button.png in Resources */,
+				E2F4EAC21A9EF67300422E55 /* icon.png in Resources */,
 				E2F4EAA51A9EF65800422E55 /* Main.storyboard in Resources */,
 				E2F4EAAA1A9EF65800422E55 /* LaunchScreen.xib in Resources */,
 				E2F4EAA71A9EF65800422E55 /* Images.xcassets in Resources */,
